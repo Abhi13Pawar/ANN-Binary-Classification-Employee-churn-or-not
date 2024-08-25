@@ -1,7 +1,9 @@
 Project:- Employee Churn Prediction Using Artificial Neural Networks
 
+
 Project Overview:
 This project aims to predict employee churn, i.e., whether employees are likely to leave the company, using an Artificial Neural Network (ANN). We utilized various employee features, such as credit score, age, and account balance, to make these predictions.
+
 
 Dataset:
 The dataset comprises information about employees, including:
@@ -17,10 +19,12 @@ The dataset comprises information about employees, including:
 - Estimated Salary: Employee's estimated salary.
 - Exited: Whether the employee left (1) or stayed (0).
 
+
 Data Preparation:
 1. Data Cleaning: Removed non-essential columns.
 2. Encoding: Transformed categorical data (gender, geography) into numerical format.
 3. Scaling: Standardized numerical features for improved model performance.
+
 
 Model Development:
 - Architecture: Constructed an ANN with input, hidden, and output layers.
@@ -28,16 +32,20 @@ Model Development:
 - Training: Trained the model using the employee dataset to identify churn patterns.
 - Evaluation: Assessed the model's accuracy and generalization using a separate dataset.
 
+
 Results:
 The ANN model demonstrated strong performance in predicting employee churn, effectively identifying key patterns and aiding in proactive retention strategies.
+
 
 Tools and Technologies:
 - Programming Languages: Python
 - Libraries: TensorFlow, Pandas, NumPy, Scikit-learn
 - Visualization: TensorBoard for model performance monitoring
 
+
 Conclusion:
 The ANN model offers valuable insights into employee churn, enabling the company to make data-driven decisions to enhance employee retention.
+
 
 Future Improvements:
 1. Feature Engineering: Explore additional techniques such as interaction terms.
@@ -46,11 +54,13 @@ Future Improvements:
 4. Cross-Validation: Implement to ensure robustness and reduce overfitting.
 5. Data Augmentation: Consider if applicable to increase training data diversity.
 
+
 Lessons Learned:
 1. Data Preprocessing: Gained expertise in handling categorical variables and feature scaling.
 2. Model Building: Acquired skills in constructing and compiling neural networks using TensorFlow and Keras.
 3. Evaluation Metrics: Understood the use of accuracy, loss metrics, and validation data.
 4. Callbacks: Utilized Early Stopping and TensorBoard for effective training monitoring.
+
 
 Validation:
 1. Validation Accuracy: Monitored accuracy and loss on the validation set.
